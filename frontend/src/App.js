@@ -42,10 +42,10 @@ class App extends Component {
       <div className="App">
         <div className="wrapper">
           <div className="leftBox">
-            <h1>Wikipedia topic occurence counter</h1>
+            <h1>Wikipedia topic occurrence counter</h1>
             <hr style={{width:"20%"}}/>
             <input id="inputForm" onChange={evt => this.updateInputValue(evt)} type="text" placeholder="Insert a topic here"/>
-            <button id="submitButton" onClick={this.callAPI}>Retreive</button>
+            <button id="submitButton" onClick={this.callAPI}>Retrieve</button>
           </div>
           
           <div className="rightBox">
