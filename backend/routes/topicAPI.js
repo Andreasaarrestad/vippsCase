@@ -11,10 +11,12 @@ router.get('/:topic', function(req, res, next) {
             const regex = new RegExp(req.params.topic, 'gi');
             const text = json.parse.text["*"];
             const counter = (text.match(regex) || []).length;
+            res.status(200);
             res.send(counter.toString());
         })
         .catch(() => {
-            console.log("Error handling");
+            res.status(500);
+            res.send("Error");
         });       
 });
 
