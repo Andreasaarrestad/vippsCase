@@ -1,5 +1,5 @@
 .wrapper {
-  margin:5% 550px 0px 550px;
+  margin:5% 30% 0px 30%;
   padding:50px 100px;
   position:relative;
   background-color:white;
@@ -28,8 +28,8 @@ h1 {
 }
 
 #inputForm {
-  width:400px;
-  margin-right:10px;
+  width:70%;
+  margin-right:2%;
   margin-top:50px;
   height:25px;
 }
@@ -41,4 +41,5 @@ h1 {
 
 #submitButton {
   height:32px;
+  width:18%;
 }
